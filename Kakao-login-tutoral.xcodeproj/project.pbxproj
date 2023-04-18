@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E8F71629ED573600312E04 /* Kakao_login_tutoralApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F71529ED573600312E04 /* Kakao_login_tutoralApp.swift */; };
+		01E8F71829ED573600312E04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F71729ED573600312E04 /* ContentView.swift */; };
+		01E8F71A29ED573600312E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E8F71929ED573600312E04 /* Assets.xcassets */; };
+		01E8F71D29ED573600312E04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E8F71C29ED573600312E04 /* Preview Assets.xcassets */; };
+		01E8F72729ED573700312E04 /* Kakao_login_tutoralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F72629ED573700312E04 /* Kakao_login_tutoralTests.swift */; };
+		01E8F73129ED573700312E04 /* Kakao_login_tutoralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F73029ED573700312E04 /* Kakao_login_tutoralUITests.swift */; };
+		01E8F73329ED573700312E04 /* Kakao_login_tutoralUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F73229ED573700312E04 /* Kakao_login_tutoralUITestsLaunchTests.swift */; };
+		01E8F74129ED575D00312E04 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 01E8F74029ED575D00312E04 /* KakaoSDK */; };
+		01E8F74329ED575D00312E04 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 01E8F74229ED575D00312E04 /* KakaoSDKAuth */; };
+		01E8F74529ED575D00312E04 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 01E8F74429ED575D00312E04 /* KakaoSDKCommon */; };
+		01E8F74729ED575D00312E04 /* KakaoSDKNavi in Frameworks */ = {isa = PBXBuildFile; productRef = 01E8F74629ED575D00312E04 /* KakaoSDKNavi */; };
+		01E8F74929ED575D00312E04 /* KakaoSDKShare in Frameworks */ = {isa = PBXBuildFile; productRef = 01E8F74829ED575D00312E04 /* KakaoSDKShare */; };
+		01E8F74B29ED575D00312E04 /* KakaoSDKStory in Frameworks */ = {isa = PBXBuildFile; productRef = 01E8F74A29ED575D00312E04 /* KakaoSDKStory */; };
+		01E8F74D29ED575D00312E04 /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = 01E8F74C29ED575D00312E04 /* KakaoSDKTalk */; };
+		01E8F74F29ED575D00312E04 /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 01E8F74E29ED575D00312E04 /* KakaoSDKTemplate */; };
+		01E8F75129ED575D00312E04 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 01E8F75029ED575D00312E04 /* KakaoSDKUser */; };
+		01E8F75529ED9A2900312E04 /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F75429ED9A2900312E04 /* MyAppDelegate.swift */; };
+		01E8F75729ED9BCC00312E04 /* MySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F75629ED9BCC00312E04 /* MySceneDelegate.swift */; };
+		01E8F75929EDA31F00312E04 /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F75829EDA31F00312E04 /* KakaoAuthVM.swift */; };
+		01E8F76F29EE1FE800312E04 /* LoginView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F76E29EE1FE800312E04 /* LoginView1.swift */; };
+		01E8F77129EE200200312E04 /* Siginup1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F77029EE200200312E04 /* Siginup1.swift */; };
+		01E8F77329EE201400312E04 /* TabView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F77229EE201400312E04 /* TabView1.swift */; };
+		01E8F77629EE20C200312E04 /* object2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F77529EE20C200312E04 /* object2.swift */; };
+		01E8F77829EE20D300312E04 /* HeaderView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F77729EE20D300312E04 /* HeaderView3.swift */; };
+		01E8F77A29EE20E500312E04 /* TextFieldView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F77929EE20E500312E04 /* TextFieldView4.swift */; };
+		01E8F77C29EE210600312E04 /* TodoListView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F77B29EE210600312E04 /* TodoListView5.swift */; };
+		01E8F77E29EE211800312E04 /* SaveLoadButtonView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F77D29EE211800312E04 /* SaveLoadButtonView6.swift */; };
+		01E8F78029EE214900312E04 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F77F29EE214900312E04 /* ColorView.swift */; };
+		01E8F78229EE218E00312E04 /* CalenderView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78129EE218E00312E04 /* CalenderView1.swift */; };
+		01E8F78429EE221C00312E04 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78329EE221C00312E04 /* ChartView.swift */; };
+		01E8F78729EE226E00312E04 /* authView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78629EE226E00312E04 /* authView1.swift */; };
+		01E8F78929EE227D00312E04 /* editProfileView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78829EE227D00312E04 /* editProfileView1.swift */; };
+		01E8F78B29EE228E00312E04 /* setalarmView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78A29EE228E00312E04 /* setalarmView1.swift */; };
+		01E8F78D29EE22A900312E04 /* setModeView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78C29EE22A900312E04 /* setModeView1.swift */; };
+		01E8F78F29EE22C100312E04 /* communityRuleView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78E29EE22C100312E04 /* communityRuleView1.swift */; };
+		01E8F79129EE22D700312E04 /* SettingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F79029EE22D700312E04 /* SettingView1.swift */; };
+		01E8F79329EE22EA00312E04 /* ColorSchemeView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F79229EE22EA00312E04 /* ColorSchemeView1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01E8F72329ED573700312E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E8F70A29ED573600312E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01E8F71129ED573600312E04;
+			remoteInfo = "Kakao-login-tutoral";
+		};
+		01E8F72D29ED573700312E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E8F70A29ED573600312E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01E8F71129ED573600312E04;
+			remoteInfo = "Kakao-login-tutoral";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E8F71229ED573600312E04 /* Kakao-login-tutoral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kakao-login-tutoral.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E8F71529ED573600312E04 /* Kakao_login_tutoralApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kakao_login_tutoralApp.swift; sourceTree = "<group>"; };
+		01E8F71729ED573600312E04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01E8F71929ED573600312E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01E8F71C29ED573600312E04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01E8F72229ED573700312E04 /* Kakao-login-tutoralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kakao-login-tutoralTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E8F72629ED573700312E04 /* Kakao_login_tutoralTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kakao_login_tutoralTests.swift; sourceTree = "<group>"; };
+		01E8F72C29ED573700312E04 /* Kakao-login-tutoralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kakao-login-tutoralUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E8F73029ED573700312E04 /* Kakao_login_tutoralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kakao_login_tutoralUITests.swift; sourceTree = "<group>"; };
+		01E8F73229ED573700312E04 /* Kakao_login_tutoralUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kakao_login_tutoralUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01E8F75229ED576900312E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		01E8F75329ED972C00312E04 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		01E8F75429ED9A2900312E04 /* MyAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
+		01E8F75629ED9BCC00312E04 /* MySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySceneDelegate.swift; sourceTree = "<group>"; };
+		01E8F75829EDA31F00312E04 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
+		01E8F76E29EE1FE800312E04 /* LoginView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView1.swift; sourceTree = "<group>"; };
+		01E8F77029EE200200312E04 /* Siginup1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siginup1.swift; sourceTree = "<group>"; };
+		01E8F77229EE201400312E04 /* TabView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView1.swift; sourceTree = "<group>"; };
+		01E8F77529EE20C200312E04 /* object2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = object2.swift; sourceTree = "<group>"; };
+		01E8F77729EE20D300312E04 /* HeaderView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView3.swift; sourceTree = "<group>"; };
+		01E8F77929EE20E500312E04 /* TextFieldView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView4.swift; sourceTree = "<group>"; };
+		01E8F77B29EE210600312E04 /* TodoListView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView5.swift; sourceTree = "<group>"; };
+		01E8F77D29EE211800312E04 /* SaveLoadButtonView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLoadButtonView6.swift; sourceTree = "<group>"; };
+		01E8F77F29EE214900312E04 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		01E8F78129EE218E00312E04 /* CalenderView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView1.swift; sourceTree = "<group>"; };
+		01E8F78329EE221C00312E04 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		01E8F78629EE226E00312E04 /* authView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authView1.swift; sourceTree = "<group>"; };
+		01E8F78829EE227D00312E04 /* editProfileView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProfileView1.swift; sourceTree = "<group>"; };
+		01E8F78A29EE228E00312E04 /* setalarmView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setalarmView1.swift; sourceTree = "<group>"; };
+		01E8F78C29EE22A900312E04 /* setModeView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setModeView1.swift; sourceTree = "<group>"; };
+		01E8F78E29EE22C100312E04 /* communityRuleView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communityRuleView1.swift; sourceTree = "<group>"; };
+		01E8F79029EE22D700312E04 /* SettingView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView1.swift; sourceTree = "<group>"; };
+		01E8F79229EE22EA00312E04 /* ColorSchemeView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeView1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E8F70F29ED573600312E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E8F74129ED575D00312E04 /* KakaoSDK in Frameworks */,
+				01E8F74D29ED575D00312E04 /* KakaoSDKTalk in Frameworks */,
+				01E8F74529ED575D00312E04 /* KakaoSDKCommon in Frameworks */,
+				01E8F74929ED575D00312E04 /* KakaoSDKShare in Frameworks */,
+				01E8F74329ED575D00312E04 /* KakaoSDKAuth in Frameworks */,
+				01E8F74F29ED575D00312E04 /* KakaoSDKTemplate in Frameworks */,
+				01E8F74729ED575D00312E04 /* KakaoSDKNavi in Frameworks */,
+				01E8F74B29ED575D00312E04 /* KakaoSDKStory in Frameworks */,
+				01E8F75129ED575D00312E04 /* KakaoSDKUser in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E8F71F29ED573700312E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E8F72929ED573700312E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E8F70929ED573600312E04 = {
+			isa = PBXGroup;
+			children = (
+				01E8F71429ED573600312E04 /* Kakao-login-tutoral */,
+				01E8F72529ED573700312E04 /* Kakao-login-tutoralTests */,
+				01E8F72F29ED573700312E04 /* Kakao-login-tutoralUITests */,
+				01E8F71329ED573600312E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01E8F71329ED573600312E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E8F71229ED573600312E04 /* Kakao-login-tutoral.app */,
+				01E8F72229ED573700312E04 /* Kakao-login-tutoralTests.xctest */,
+				01E8F72C29ED573700312E04 /* Kakao-login-tutoralUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01E8F71429ED573600312E04 /* Kakao-login-tutoral */ = {
+			isa = PBXGroup;
+			children = (
+				01E8F71529ED573600312E04 /* Kakao_login_tutoralApp.swift */,
+				01E8F71729ED573600312E04 /* ContentView.swift */,
+				01E8F79F29EE4A1100312E04 /* Kakao */,
+				01E8F77429EE20A100312E04 /* View */,
+				01E8F76D29EE1FC800312E04 /* User */,
+				01E8F78529EE225200312E04 /* Setting */,
+				01E8F75229ED576900312E04 /* Info.plist */,
+				01E8F71929ED573600312E04 /* Assets.xcassets */,
+				01E8F71B29ED573600312E04 /* Preview Content */,
+				01E8F75329ED972C00312E04 /* Config.xcconfig */,
+			);
+			path = "Kakao-login-tutoral";
+			sourceTree = "<group>";
+		};
+		01E8F71B29ED573600312E04 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01E8F71C29ED573600312E04 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01E8F72529ED573700312E04 /* Kakao-login-tutoralTests */ = {
+			isa = PBXGroup;
+			children = (
+				01E8F72629ED573700312E04 /* Kakao_login_tutoralTests.swift */,
+			);
+			path = "Kakao-login-tutoralTests";
+			sourceTree = "<group>";
+		};
+		01E8F72F29ED573700312E04 /* Kakao-login-tutoralUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01E8F73029ED573700312E04 /* Kakao_login_tutoralUITests.swift */,
+				01E8F73229ED573700312E04 /* Kakao_login_tutoralUITestsLaunchTests.swift */,
+			);
+			path = "Kakao-login-tutoralUITests";
+			sourceTree = "<group>";
+		};
+		01E8F76D29EE1FC800312E04 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				01E8F76E29EE1FE800312E04 /* LoginView1.swift */,
+				01E8F77029EE200200312E04 /* Siginup1.swift */,
+				01E8F77229EE201400312E04 /* TabView1.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		01E8F77429EE20A100312E04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01E8F78129EE218E00312E04 /* CalenderView1.swift */,
+				01E8F77B29EE210600312E04 /* TodoListView5.swift */,
+				01E8F77529EE20C200312E04 /* object2.swift */,
+				01E8F77729EE20D300312E04 /* HeaderView3.swift */,
+				01E8F77929EE20E500312E04 /* TextFieldView4.swift */,
+				01E8F77D29EE211800312E04 /* SaveLoadButtonView6.swift */,
+				01E8F78329EE221C00312E04 /* ChartView.swift */,
+				01E8F77F29EE214900312E04 /* ColorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		01E8F78529EE225200312E04 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				01E8F78629EE226E00312E04 /* authView1.swift */,
+				01E8F78829EE227D00312E04 /* editProfileView1.swift */,
+				01E8F78A29EE228E00312E04 /* setalarmView1.swift */,
+				01E8F78C29EE22A900312E04 /* setModeView1.swift */,
+				01E8F78E29EE22C100312E04 /* communityRuleView1.swift */,
+				01E8F79029EE22D700312E04 /* SettingView1.swift */,
+				01E8F79229EE22EA00312E04 /* ColorSchemeView1.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		01E8F79F29EE4A1100312E04 /* Kakao */ = {
+			isa = PBXGroup;
+			children = (
+				01E8F75429ED9A2900312E04 /* MyAppDelegate.swift */,
+				01E8F75829EDA31F00312E04 /* KakaoAuthVM.swift */,
+				01E8F75629ED9BCC00312E04 /* MySceneDelegate.swift */,
+			);
+			path = Kakao;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E8F71129ED573600312E04 /* Kakao-login-tutoral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E8F73629ED573700312E04 /* Build configuration list for PBXNativeTarget "Kakao-login-tutoral" */;
+			buildPhases = (
+				01E8F70E29ED573600312E04 /* Sources */,
+				01E8F70F29ED573600312E04 /* Frameworks */,
+				01E8F71029ED573600312E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kakao-login-tutoral";
+			packageProductDependencies = (
+				01E8F74029ED575D00312E04 /* KakaoSDK */,
+				01E8F74229ED575D00312E04 /* KakaoSDKAuth */,
+				01E8F74429ED575D00312E04 /* KakaoSDKCommon */,
+				01E8F74629ED575D00312E04 /* KakaoSDKNavi */,
+				01E8F74829ED575D00312E04 /* KakaoSDKShare */,
+				01E8F74A29ED575D00312E04 /* KakaoSDKStory */,
+				01E8F74C29ED575D00312E04 /* KakaoSDKTalk */,
+				01E8F74E29ED575D00312E04 /* KakaoSDKTemplate */,
+				01E8F75029ED575D00312E04 /* KakaoSDKUser */,
+			);
+			productName = "Kakao-login-tutoral";
+			productReference = 01E8F71229ED573600312E04 /* Kakao-login-tutoral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01E8F72129ED573700312E04 /* Kakao-login-tutoralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E8F73929ED573700312E04 /* Build configuration list for PBXNativeTarget "Kakao-login-tutoralTests" */;
+			buildPhases = (
+				01E8F71E29ED573700312E04 /* Sources */,
+				01E8F71F29ED573700312E04 /* Frameworks */,
+				01E8F72029ED573700312E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E8F72429ED573700312E04 /* PBXTargetDependency */,
+			);
+			name = "Kakao-login-tutoralTests";
+			productName = "Kakao-login-tutoralTests";
+			productReference = 01E8F72229ED573700312E04 /* Kakao-login-tutoralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01E8F72B29ED573700312E04 /* Kakao-login-tutoralUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E8F73C29ED573700312E04 /* Build configuration list for PBXNativeTarget "Kakao-login-tutoralUITests" */;
+			buildPhases = (
+				01E8F72829ED573700312E04 /* Sources */,
+				01E8F72929ED573700312E04 /* Frameworks */,
+				01E8F72A29ED573700312E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E8F72E29ED573700312E04 /* PBXTargetDependency */,
+			);
+			name = "Kakao-login-tutoralUITests";
+			productName = "Kakao-login-tutoralUITests";
+			productReference = 01E8F72C29ED573700312E04 /* Kakao-login-tutoralUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E8F70A29ED573600312E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					01E8F71129ED573600312E04 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					01E8F72129ED573700312E04 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 01E8F71129ED573600312E04;
+					};
+					01E8F72B29ED573700312E04 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 01E8F71129ED573600312E04;
+					};
+				};
+			};
+			buildConfigurationList = 01E8F70D29ED573600312E04 /* Build configuration list for PBXProject "Kakao-login-tutoral" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01E8F70929ED573600312E04;
+			packageReferences = (
+				01E8F73F29ED575D00312E04 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+			);
+			productRefGroup = 01E8F71329ED573600312E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E8F71129ED573600312E04 /* Kakao-login-tutoral */,
+				01E8F72129ED573700312E04 /* Kakao-login-tutoralTests */,
+				01E8F72B29ED573700312E04 /* Kakao-login-tutoralUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01E8F71029ED573600312E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E8F71D29ED573600312E04 /* Preview Assets.xcassets in Resources */,
+				01E8F71A29ED573600312E04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E8F72029ED573700312E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E8F72A29ED573700312E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E8F70E29ED573600312E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E8F77C29EE210600312E04 /* TodoListView5.swift in Sources */,
+				01E8F79129EE22D700312E04 /* SettingView1.swift in Sources */,
+				01E8F76F29EE1FE800312E04 /* LoginView1.swift in Sources */,
+				01E8F78029EE214900312E04 /* ColorView.swift in Sources */,
+				01E8F77829EE20D300312E04 /* HeaderView3.swift in Sources */,
+				01E8F77129EE200200312E04 /* Siginup1.swift in Sources */,
+				01E8F79329EE22EA00312E04 /* ColorSchemeView1.swift in Sources */,
+				01E8F77E29EE211800312E04 /* SaveLoadButtonView6.swift in Sources */,
+				01E8F78D29EE22A900312E04 /* setModeView1.swift in Sources */,
+				01E8F77329EE201400312E04 /* TabView1.swift in Sources */,
+				01E8F78429EE221C00312E04 /* ChartView.swift in Sources */,
+				01E8F75929EDA31F00312E04 /* KakaoAuthVM.swift in Sources */,
+				01E8F78729EE226E00312E04 /* authView1.swift in Sources */,
+				01E8F77A29EE20E500312E04 /* TextFieldView4.swift in Sources */,
+				01E8F71829ED573600312E04 /* ContentView.swift in Sources */,
+				01E8F75529ED9A2900312E04 /* MyAppDelegate.swift in Sources */,
+				01E8F77629EE20C200312E04 /* object2.swift in Sources */,
+				01E8F78F29EE22C100312E04 /* communityRuleView1.swift in Sources */,
+				01E8F78929EE227D00312E04 /* editProfileView1.swift in Sources */,
+				01E8F71629ED573600312E04 /* Kakao_login_tutoralApp.swift in Sources */,
+				01E8F75729ED9BCC00312E04 /* MySceneDelegate.swift in Sources */,
+				01E8F78229EE218E00312E04 /* CalenderView1.swift in Sources */,
+				01E8F78B29EE228E00312E04 /* setalarmView1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E8F71E29ED573700312E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E8F72729ED573700312E04 /* Kakao_login_tutoralTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E8F72829ED573700312E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E8F73329ED573700312E04 /* Kakao_login_tutoralUITestsLaunchTests.swift in Sources */,
+				01E8F73129ED573700312E04 /* Kakao_login_tutoralUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01E8F72429ED573700312E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01E8F71129ED573600312E04 /* Kakao-login-tutoral */;
+			targetProxy = 01E8F72329ED573700312E04 /* PBXContainerItemProxy */;
+		};
+		01E8F72E29ED573700312E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01E8F71129ED573600312E04 /* Kakao-login-tutoral */;
+			targetProxy = 01E8F72D29ED573700312E04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01E8F73429ED573700312E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E8F75329ED972C00312E04 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01E8F73529ED573700312E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E8F75329ED972C00312E04 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01E8F73729ED573700312E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E8F75329ED972C00312E04 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kakao-login-tutoral/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kakao-login-tutoral/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Kakao-login-tutoral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01E8F73829ED573700312E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E8F75329ED972C00312E04 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kakao-login-tutoral/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kakao-login-tutoral/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Kakao-login-tutoral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01E8F73A29ED573700312E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E8F75329ED972C00312E04 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Kakao-login-tutoralTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kakao-login-tutoral.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kakao-login-tutoral";
+			};
+			name = Debug;
+		};
+		01E8F73B29ED573700312E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E8F75329ED972C00312E04 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Kakao-login-tutoralTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kakao-login-tutoral.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kakao-login-tutoral";
+			};
+			name = Release;
+		};
+		01E8F73D29ED573700312E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E8F75329ED972C00312E04 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Kakao-login-tutoralUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kakao-login-tutoral";
+			};
+			name = Debug;
+		};
+		01E8F73E29ED573700312E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E8F75329ED972C00312E04 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Kakao-login-tutoralUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kakao-login-tutoral";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E8F70D29ED573600312E04 /* Build configuration list for PBXProject "Kakao-login-tutoral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E8F73429ED573700312E04 /* Debug */,
+				01E8F73529ED573700312E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E8F73629ED573700312E04 /* Build configuration list for PBXNativeTarget "Kakao-login-tutoral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E8F73729ED573700312E04 /* Debug */,
+				01E8F73829ED573700312E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E8F73929ED573700312E04 /* Build configuration list for PBXNativeTarget "Kakao-login-tutoralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E8F73A29ED573700312E04 /* Debug */,
+				01E8F73B29ED573700312E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E8F73C29ED573700312E04 /* Build configuration list for PBXNativeTarget "Kakao-login-tutoralUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E8F73D29ED573700312E04 /* Debug */,
+				01E8F73E29ED573700312E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01E8F73F29ED575D00312E04 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01E8F74029ED575D00312E04 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01E8F73F29ED575D00312E04 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		01E8F74229ED575D00312E04 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01E8F73F29ED575D00312E04 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		01E8F74429ED575D00312E04 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01E8F73F29ED575D00312E04 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		01E8F74629ED575D00312E04 /* KakaoSDKNavi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01E8F73F29ED575D00312E04 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKNavi;
+		};
+		01E8F74829ED575D00312E04 /* KakaoSDKShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01E8F73F29ED575D00312E04 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKShare;
+		};
+		01E8F74A29ED575D00312E04 /* KakaoSDKStory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01E8F73F29ED575D00312E04 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKStory;
+		};
+		01E8F74C29ED575D00312E04 /* KakaoSDKTalk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01E8F73F29ED575D00312E04 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTalk;
+		};
+		01E8F74E29ED575D00312E04 /* KakaoSDKTemplate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01E8F73F29ED575D00312E04 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTemplate;
+		};
+		01E8F75029ED575D00312E04 /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01E8F73F29ED575D00312E04 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 01E8F70A29ED573600312E04 /* Project object */;
+}
