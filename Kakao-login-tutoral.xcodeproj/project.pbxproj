@@ -36,14 +36,14 @@
 		01E8F77E29EE211800312E04 /* SaveLoadButtonView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F77D29EE211800312E04 /* SaveLoadButtonView6.swift */; };
 		01E8F78029EE214900312E04 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F77F29EE214900312E04 /* ColorView.swift */; };
 		01E8F78229EE218E00312E04 /* CalenderView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78129EE218E00312E04 /* CalenderView1.swift */; };
-		01E8F78429EE221C00312E04 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78329EE221C00312E04 /* ChartView.swift */; };
 		01E8F78729EE226E00312E04 /* authView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78629EE226E00312E04 /* authView1.swift */; };
 		01E8F78929EE227D00312E04 /* editProfileView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78829EE227D00312E04 /* editProfileView1.swift */; };
 		01E8F78B29EE228E00312E04 /* setalarmView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78A29EE228E00312E04 /* setalarmView1.swift */; };
-		01E8F78D29EE22A900312E04 /* setModeView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78C29EE22A900312E04 /* setModeView1.swift */; };
-		01E8F78F29EE22C100312E04 /* communityRuleView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78E29EE22C100312E04 /* communityRuleView1.swift */; };
 		01E8F79129EE22D700312E04 /* SettingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F79029EE22D700312E04 /* SettingView1.swift */; };
 		01E8F79329EE22EA00312E04 /* ColorSchemeView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F79229EE22EA00312E04 /* ColorSchemeView1.swift */; };
+		01E8F7A529F8D39D00312E04 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F7A429F8D39D00312E04 /* BarChartView.swift */; };
+		01E8F7A729FB5E9F00312E04 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F7A629FB5E9F00312E04 /* ShareView.swift */; };
+		01E8F7A929FB603800312E04 /* editProView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F7A829FB603800312E04 /* editProView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,14 +89,14 @@
 		01E8F77D29EE211800312E04 /* SaveLoadButtonView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLoadButtonView6.swift; sourceTree = "<group>"; };
 		01E8F77F29EE214900312E04 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		01E8F78129EE218E00312E04 /* CalenderView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView1.swift; sourceTree = "<group>"; };
-		01E8F78329EE221C00312E04 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		01E8F78629EE226E00312E04 /* authView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authView1.swift; sourceTree = "<group>"; };
 		01E8F78829EE227D00312E04 /* editProfileView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProfileView1.swift; sourceTree = "<group>"; };
 		01E8F78A29EE228E00312E04 /* setalarmView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setalarmView1.swift; sourceTree = "<group>"; };
-		01E8F78C29EE22A900312E04 /* setModeView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setModeView1.swift; sourceTree = "<group>"; };
-		01E8F78E29EE22C100312E04 /* communityRuleView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communityRuleView1.swift; sourceTree = "<group>"; };
 		01E8F79029EE22D700312E04 /* SettingView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView1.swift; sourceTree = "<group>"; };
 		01E8F79229EE22EA00312E04 /* ColorSchemeView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeView1.swift; sourceTree = "<group>"; };
+		01E8F7A429F8D39D00312E04 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		01E8F7A629FB5E9F00312E04 /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		01E8F7A829FB603800312E04 /* editProView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,8 +213,8 @@
 				01E8F77529EE20C200312E04 /* object2.swift */,
 				01E8F77729EE20D300312E04 /* HeaderView3.swift */,
 				01E8F77929EE20E500312E04 /* TextFieldView4.swift */,
+				01E8F7A429F8D39D00312E04 /* BarChartView.swift */,
 				01E8F77D29EE211800312E04 /* SaveLoadButtonView6.swift */,
-				01E8F78329EE221C00312E04 /* ChartView.swift */,
 				01E8F77F29EE214900312E04 /* ColorView.swift */,
 			);
 			path = View;
@@ -223,13 +223,13 @@
 		01E8F78529EE225200312E04 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				01E8F78629EE226E00312E04 /* authView1.swift */,
-				01E8F78829EE227D00312E04 /* editProfileView1.swift */,
-				01E8F78A29EE228E00312E04 /* setalarmView1.swift */,
-				01E8F78C29EE22A900312E04 /* setModeView1.swift */,
-				01E8F78E29EE22C100312E04 /* communityRuleView1.swift */,
 				01E8F79029EE22D700312E04 /* SettingView1.swift */,
 				01E8F79229EE22EA00312E04 /* ColorSchemeView1.swift */,
+				01E8F7A629FB5E9F00312E04 /* ShareView.swift */,
+				01E8F78829EE227D00312E04 /* editProfileView1.swift */,
+				01E8F7A829FB603800312E04 /* editProView.swift */,
+				01E8F78A29EE228E00312E04 /* setalarmView1.swift */,
+				01E8F78629EE226E00312E04 /* authView1.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -389,6 +389,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E8F77C29EE210600312E04 /* TodoListView5.swift in Sources */,
+				01E8F7A929FB603800312E04 /* editProView.swift in Sources */,
+				01E8F7A529F8D39D00312E04 /* BarChartView.swift in Sources */,
+				01E8F7A729FB5E9F00312E04 /* ShareView.swift in Sources */,
 				01E8F79129EE22D700312E04 /* SettingView1.swift in Sources */,
 				01E8F76F29EE1FE800312E04 /* LoginView1.swift in Sources */,
 				01E8F78029EE214900312E04 /* ColorView.swift in Sources */,
@@ -396,16 +399,13 @@
 				01E8F77129EE200200312E04 /* Siginup1.swift in Sources */,
 				01E8F79329EE22EA00312E04 /* ColorSchemeView1.swift in Sources */,
 				01E8F77E29EE211800312E04 /* SaveLoadButtonView6.swift in Sources */,
-				01E8F78D29EE22A900312E04 /* setModeView1.swift in Sources */,
 				01E8F77329EE201400312E04 /* TabView1.swift in Sources */,
-				01E8F78429EE221C00312E04 /* ChartView.swift in Sources */,
 				01E8F75929EDA31F00312E04 /* KakaoAuthVM.swift in Sources */,
 				01E8F78729EE226E00312E04 /* authView1.swift in Sources */,
 				01E8F77A29EE20E500312E04 /* TextFieldView4.swift in Sources */,
 				01E8F71829ED573600312E04 /* ContentView.swift in Sources */,
 				01E8F75529ED9A2900312E04 /* MyAppDelegate.swift in Sources */,
 				01E8F77629EE20C200312E04 /* object2.swift in Sources */,
-				01E8F78F29EE22C100312E04 /* communityRuleView1.swift in Sources */,
 				01E8F78929EE227D00312E04 /* editProfileView1.swift in Sources */,
 				01E8F71629ED573600312E04 /* Kakao_login_tutoralApp.swift in Sources */,
 				01E8F75729ED9BCC00312E04 /* MySceneDelegate.swift in Sources */,

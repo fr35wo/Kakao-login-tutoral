@@ -24,7 +24,7 @@ struct TabView1: View {
                     }
                     .tag(1)
                 
-                ChartView()
+                BarChartView()
                     .tabItem {
                         Image(systemName: "calendar")
                             .renderingMode(.original)
