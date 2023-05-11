@@ -13,6 +13,7 @@ struct authView1: View {
     @State private var email: String = ""
     @State private var phoneNumber: String = ""
     @State var isEditingModalPresented: Bool = false
+    @State private var showingPasswordChangeView = false
     
     var body: some View {
         VStack{
@@ -31,9 +32,12 @@ struct authView1: View {
                     editProView()
                 }
                 Button(action: {
-                    
+                    self.showingPasswordChangeView.toggle()
                 }, label: {
-                    Text("암호수정하기")
+                    Text("암호 수정하기")
+                })
+                .sheet(isPresented: $showingPasswordChangeView, content: {
+                    PasswordChangeView()
                 })
             }
         }

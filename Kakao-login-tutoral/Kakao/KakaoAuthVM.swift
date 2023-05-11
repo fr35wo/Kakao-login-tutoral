@@ -34,3 +34,14 @@ class KakaoAuthVM : ObservableObject {
     }
     
 }
+// MARK: - 카카오톡 로그아웃
+    func handleKakaoLogout() {
+        UserApi.shared.logout {(error) in
+            if let error = error {
+                print(error)
+            }
+            else {
+                print("logout() success.")
+            }
+        }
+    }

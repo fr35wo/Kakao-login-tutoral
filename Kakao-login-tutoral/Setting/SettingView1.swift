@@ -4,6 +4,25 @@ import SwiftUI
 
 struct SettingView1: View {
     
+    @State private var notificationsEnabled = false
+    
+    let notificationCenter = UNUserNotificationCenter.current()
+    
+    private func toggleUserNotification() {
+        notificationsEnabled.toggle()
+        if notificationsEnabled {
+            notificationCenter.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+                if let error = error {
+                    print(error)
+                } else {
+                    if !granted {
+                        print("Not Granted")
+                    }
+                }
+            }
+        }
+    }
+    
     @Environment(\.presentationMode) var presentationMode
     var body: some View {
         VStack{
@@ -13,27 +32,27 @@ struct SettingView1: View {
                         destination: ColorSchemeView1(),
                         label: {
                             Text("테마변경")
-                                .frame(width: 260, height: 10)
                         })
                     NavigationLink(
                         destination: ShareView(),
                         label: {
                             Text("일정 공유하기")
-                                .frame(width: 260, height: 10)
                         })
-                    NavigationLink(
-                        destination: setalarmView1(),
-                        label: {
-                            Text("알림설정")
-                                .frame(width: 260, height: 10)
-                        })
+                
+                    Toggle(isOn: $notificationsEnabled, label: {
+                        Text("알림 허용")
+                    })
+                    .onAppear() {
+                        self.notificationCenter.getNotificationSettings { settings in
+                            notificationsEnabled = settings.authorizationStatus == .authorized
+                        }
+                    }
                     NavigationLink(
                         destination: authView1(),
                         label: {
                             Text("계정관리")
-                                .frame(width: 260, height: 10)
                         })
-
+                    
                 }.padding(.vertical, 5)
                 
             }

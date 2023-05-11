@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017913762A0CB1C600CC11BD /* PasswordChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017913752A0CB1C600CC11BD /* PasswordChangeView.swift */; };
 		01E8F71629ED573600312E04 /* Kakao_login_tutoralApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F71529ED573600312E04 /* Kakao_login_tutoralApp.swift */; };
 		01E8F71829ED573600312E04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F71729ED573600312E04 /* ContentView.swift */; };
 		01E8F71A29ED573600312E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E8F71929ED573600312E04 /* Assets.xcassets */; };
@@ -38,7 +39,6 @@
 		01E8F78229EE218E00312E04 /* CalenderView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78129EE218E00312E04 /* CalenderView1.swift */; };
 		01E8F78729EE226E00312E04 /* authView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78629EE226E00312E04 /* authView1.swift */; };
 		01E8F78929EE227D00312E04 /* editProfileView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78829EE227D00312E04 /* editProfileView1.swift */; };
-		01E8F78B29EE228E00312E04 /* setalarmView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F78A29EE228E00312E04 /* setalarmView1.swift */; };
 		01E8F79129EE22D700312E04 /* SettingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F79029EE22D700312E04 /* SettingView1.swift */; };
 		01E8F79329EE22EA00312E04 /* ColorSchemeView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F79229EE22EA00312E04 /* ColorSchemeView1.swift */; };
 		01E8F7A529F8D39D00312E04 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8F7A429F8D39D00312E04 /* BarChartView.swift */; };
@@ -64,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017913752A0CB1C600CC11BD /* PasswordChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChangeView.swift; sourceTree = "<group>"; };
 		01E8F71229ED573600312E04 /* Kakao-login-tutoral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kakao-login-tutoral.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E8F71529ED573600312E04 /* Kakao_login_tutoralApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kakao_login_tutoralApp.swift; sourceTree = "<group>"; };
 		01E8F71729ED573600312E04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,7 +92,6 @@
 		01E8F78129EE218E00312E04 /* CalenderView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView1.swift; sourceTree = "<group>"; };
 		01E8F78629EE226E00312E04 /* authView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authView1.swift; sourceTree = "<group>"; };
 		01E8F78829EE227D00312E04 /* editProfileView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProfileView1.swift; sourceTree = "<group>"; };
-		01E8F78A29EE228E00312E04 /* setalarmView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setalarmView1.swift; sourceTree = "<group>"; };
 		01E8F79029EE22D700312E04 /* SettingView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView1.swift; sourceTree = "<group>"; };
 		01E8F79229EE22EA00312E04 /* ColorSchemeView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeView1.swift; sourceTree = "<group>"; };
 		01E8F7A429F8D39D00312E04 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
@@ -227,9 +227,9 @@
 				01E8F79229EE22EA00312E04 /* ColorSchemeView1.swift */,
 				01E8F7A629FB5E9F00312E04 /* ShareView.swift */,
 				01E8F78829EE227D00312E04 /* editProfileView1.swift */,
-				01E8F7A829FB603800312E04 /* editProView.swift */,
-				01E8F78A29EE228E00312E04 /* setalarmView1.swift */,
 				01E8F78629EE226E00312E04 /* authView1.swift */,
+				01E8F7A829FB603800312E04 /* editProView.swift */,
+				017913752A0CB1C600CC11BD /* PasswordChangeView.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -407,10 +407,10 @@
 				01E8F75529ED9A2900312E04 /* MyAppDelegate.swift in Sources */,
 				01E8F77629EE20C200312E04 /* object2.swift in Sources */,
 				01E8F78929EE227D00312E04 /* editProfileView1.swift in Sources */,
+				017913762A0CB1C600CC11BD /* PasswordChangeView.swift in Sources */,
 				01E8F71629ED573600312E04 /* Kakao_login_tutoralApp.swift in Sources */,
 				01E8F75729ED9BCC00312E04 /* MySceneDelegate.swift in Sources */,
 				01E8F78229EE218E00312E04 /* CalenderView1.swift in Sources */,
-				01E8F78B29EE228E00312E04 /* setalarmView1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,7 +585,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test.Kakao-login-tutoral";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.test.Kakao-login-tutoral.KakaoAuth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -615,7 +615,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test.Kakao-login-tutoral";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.test.Kakao-login-tutoral.KakaoAuth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
