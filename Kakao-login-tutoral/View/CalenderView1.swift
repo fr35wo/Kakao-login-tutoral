@@ -1,17 +1,25 @@
 import SwiftUI
 
 struct CalenderView1: View {
-    
-    @State private var selectedDate = Date()
+    @State private var selectedDate: Date?
+    @State private var eventData: [Date: String] = [:]
+    @State private var isPresentingModal = false
+//    @State private var selectedDate = Date()
     @EnvironmentObject var todoLists: TodoLists
     
     var body: some View {
         VStack {
-            DatePicker("Select a date", selection: $selectedDate, displayedComponents: [.date])
-                .datePickerStyle(.graphical)
-                .padding()
-                .accentColor(Color(hex: 0xF193B8A))
-            
+//            DatePicker("Select a date", selection: $selectedDate, displayedComponents: [.date])
+//                .datePickerStyle(.graphical)
+//                .padding()
+//                .accentColor(Color(hex: 0xF193B8A))
+            VStack {
+                            FSCalendarView(selectedDate: $selectedDate, eventData: $eventData, isPresentingModal: $isPresentingModal)
+                                .frame(height: 300)
+                        }
+                        .sheet(isPresented: $isPresentingModal) {
+                            AddEventView(eventData: $eventData, isPresentingModal: $isPresentingModal)
+                        }
             VStack{
                 HeaderView()
                 TextFieldView4()
